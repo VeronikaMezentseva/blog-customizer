@@ -31,6 +31,7 @@ export const Select = (props: SelectProps) => {
 		rootRef,
 		onClose,
 		onChange: setIsOpen,
+		eventName: 'mousedown',
 	});
 
 	useEnterSubmit({
